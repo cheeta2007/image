@@ -16,7 +16,7 @@ appWidth = width;
 appHeight = height;
 //
 //Aspect Ratio of Background Image
-//Obi-wan-star-wars-jedi-23864621-800-600.jpg
+//sus.png
 //Note: Dimensions are found in the image file / Right Click / Properties / Details
 int picWidth = 800;
 int picHeight = 600;
@@ -60,7 +60,7 @@ if ( appWidth >= picWidth ) {
 }
 //
 //Population
-pic = loadImage("../Images Used/Obi-wan-star-wars-jedi-23864621-800-600.jpg");
+pic = loadImage("../Images/sus.png");
 backgroundImageX = appWidth*0;
 backgroundImageY = appHeight*0;
 backgroundImageWidth = appWidth-1;
